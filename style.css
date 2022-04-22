@@ -47,6 +47,8 @@ li {
   margin-left: 859px;
   margin-top: 30px;
   margin-bottom: 22px;
+  position: relative;
+  padding-bottom: 15px;
 }
 
 
@@ -508,19 +510,18 @@ li {
 
 /*  menu   -------------*/
 
-.menu-list {
-  position: relative;
-
-}
 
 .mega-box {
-  width: 180px;
+  width: 205px;
   border-radius: 5px;
   background-color: #ffffff;
   border: 1px solid #e8e8e8;
-  position: absolute;
   padding: 20px;
-  top: 43px;
+  top: 45px;
+  left: -5px;
+  position: absolute;
+  display: none;
+
 }
 
 
@@ -528,17 +529,16 @@ li {
 .mega-heading {
   color: #232323;
   font-size: 14px;
-  font-weight: 400;
   text-transform: uppercase;
-  border: 1px solid #e8e8e8;
   padding: 8px;
   margin-bottom: 10px;
-  width: 235px;
+  font-weight: 700;
+  line-height: 17px;
 }
 
 .menu-link {
   line-height: 28px;
-  position: relative;
+  display: block;
 }
 
 
@@ -555,15 +555,42 @@ li {
   width: 10px;
   height: 10px;
   background-color: #e8e8e8;
-  position: absolute;
   top: -8px;
-  left: 33px;
+  left: 15px;
   transform: rotate(45deg);
   border-left: 1px solid #e8e8e8;
   border-top: 1px solid #e8e8e8;
+  position: absolute;
 }
 
-.mega-box:hover  {
-  display: block;
-}
+ .forma2:hover .mega-box { 
+   display: block;
+ }
 
+
+
+ .bloc-menu {
+   display: block;
+   width: 100px;
+   height: 130px;
+ }
+
+ .menu-item {
+   line-height: 15px;
+ }
+
+ .man {
+   margin-bottom: 20px;
+ }
+
+ .woman{
+   margin-bottom: 20px;
+ }
+ 
+ .text-menu {
+   font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  margin-left: -23px;
+ }
