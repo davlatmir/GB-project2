@@ -15,6 +15,7 @@ body {
 
 .header {
   display: flex;
+  justify-content: space-around;
   background-image: url(images/Rectangle25.svg);
   height: 10px;
   background: #222222;
@@ -31,8 +32,18 @@ li {
   display: inline-block;
 }
 
+
+
+.menu-left {
+  margin-left: 199px;
+}
+.menu-right {
+  margin-right: 236px;
+}
+
+
 .group2 {
-  margin-left: 231px;
+
   margin-top: 18px;
   margin-bottom: 19px;
 }
@@ -197,8 +208,9 @@ li {
 }
 
 .Fetured {
+  width: 182px;
   font-weight: 400;
-  font-size: 33px;
+  font-size: 29px;
   line-height: 36px;
   color: #222222;
   margin-left: 710px;
@@ -511,11 +523,10 @@ li {
 /*  menu   -------------*/
 
 .mega-box {
-  width: 205px;
+  width: 232px;
+  height: 760px;
   border-radius: 5px;
   background-color: #ffffff;
-  border: 1px solid #e8e8e8;
-  padding: 20px;
   top: 45px;
   left: -5px;
   position: absolute;
@@ -523,18 +534,26 @@ li {
 }
 
 .mega-heading {
-  color: #232323;
-  font-size: 14px;
-  text-transform: uppercase;
-  padding: 8px;
-  margin-bottom: 10px;
+  margin-left: 34px;
+  margin-top: 37px;
+  font-family: 'Lato';
+  font-style: normal;
   font-weight: 700;
+  font-size: 14px;
   line-height: 17px;
+  color: #000000;
 }
 
 .menu-link {
-  line-height: 28px;
+  margin-top: 12px;
   display: block;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  margin-left: 54.5px;
 }
 
 .menu-link:hover {
@@ -563,13 +582,8 @@ li {
 
 .bloc-menu {
   display: block;
-  width: 100px;
-  height: 130px;
 }
 
-.menu-item {
-  line-height: 15px;
-}
 
 .man {
   margin-bottom: 20px;
@@ -579,10 +593,24 @@ li {
   margin-bottom: 20px;
 }
 
-.text-menu {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  color: #f16d7f;
-  margin-left: -23px;
+.kids {
+  margin-bottom: 20px;
+}
+
+.heading-menu {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #F16D7F;
+margin-top: 24px;
+margin-left: 33px;
+}
+
+
+.mega-cancel {
+  position: absolute;
+  top: 10px;
+  right: 15px;
 }
