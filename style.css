@@ -37,6 +37,7 @@ li {
 .menu-left {
   margin-left: 199px;
 }
+
 .menu-right {
   margin-right: 236px;
 }
@@ -148,6 +149,7 @@ li {
   margin-bottom: 30px;
 }
 
+
 .FOR_MEN {
   width: 360px;
   height: 260px;
@@ -192,8 +194,6 @@ li {
   margin-left: 103px;
 }
 
-.three_top_paragraphs {
-}
 
 .fourth_top_paragraph {
   margin-top: 65px;
@@ -230,8 +230,6 @@ li {
   margin-bottom: 48px;
 }
 
-.midl_cars {
-}
 
 .card1 {
   width: 360px;
@@ -242,13 +240,13 @@ li {
   margin-bottom: 30px;
 }
 
+
 .card2 {
   width: 360px;
   height: 581px;
   background: #f8f8f8;
   float: left;
   margin-left: 30px;
-
   margin-bottom: 30px;
 }
 
@@ -288,7 +286,7 @@ li {
   margin-bottom: 48.45px;
 }
 
-.paragraph_cards {
+.item-desc {
   font-family: "Lato";
   font-style: normal;
   margin-top: 25.36px;
@@ -300,7 +298,7 @@ li {
   color: #000000;
 }
 
-.paragraph_cards_text {
+.item_cards_text {
   font-family: "Lato";
   font-style: normal;
   font-weight: 300;
@@ -309,9 +307,10 @@ li {
   color: #5d5d5d;
   margin-bottom: 18px;
   margin-left: 16.46px;
+  margin-top: 12.65px;
 }
 
-.price_cards {
+.item-price {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -511,14 +510,6 @@ li {
   margin-top: 24px;
 }
 
-/*   Catalog   */
-
-.top_contact {
-  height: 148px;
-  background: #f8f3f4;
-  display: flex;
-  justify-content: space-between;
-}
 
 /*  menu   -------------*/
 
@@ -598,14 +589,14 @@ li {
 }
 
 .heading-menu {
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-color: #F16D7F;
-margin-top: 24px;
-margin-left: 33px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  margin-top: 24px;
+  margin-left: 33px;
 }
 
 
@@ -613,4 +604,131 @@ margin-left: 33px;
   position: absolute;
   top: 10px;
   right: 15px;
+}
+
+.item {
+  width: 360px;
+  height: 581px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.item:hover {
+  box-shadow: 0 5px 8px rgb(0, 0, 0, 0.16);
+}
+
+
+.item:hover .item-pic {
+  filter: brightness(30%);
+}
+
+.add-box {
+  display: none;
+  position: absolute;
+  top: 190px;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid white;
+  text-decoration: none;
+  pointer-events: all;
+}
+
+
+.add-text {
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.add:hover {
+  box-shadow: 0 0 10px white;
+}
+
+.item:hover .add-box {
+  display: flex;
+}
+
+/*
+.item-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+*/
+
+/*   Product   */
+
+.top_contact {
+  height: 148px;
+  background: #f8f3f4;
+  display: flex;
+  align-items: center;
+  justify-items: flex-end;
+}
+
+.top-hidding-text {
+  margin-left: 230px;
+}
+
+.top-nav {
+  margin-left: 230px;
+}
+
+.top-vector {
+  background: #F7F7F7;
+  height: 777px;
+  position: relative;
+}
+
+.Layer42 {
+  display: flex;
+  align-items: center;
+  padding-top: 11px;
+}
+
+.midl-vector {
+  width: 1141px;
+  height: 601px;
+  position: absolute;
+  top: 708px;
+  left: 230px;
+  right: 229px;
+  background: #FFFFFF;
+  text-align: center;
+  margin-bottom: 128px;
+}
+
+
+.rectangle {
+  width: 63px;
+  height: 3.03px;
+  background: #EF5B70;
+}
+
+hr {
+  width: 641px;
+  border: 1px solid #EAEAEA;
+}
+
+.add-product {
+  display: flex;
+  margin: 0px;
+}
+
+.add-box-product {
+  width: 271px;
+  height: 47px;
+}
+
+.midl-cars-product {
+  margin-bottom: 128px;
 }
