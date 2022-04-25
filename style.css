@@ -23,6 +23,7 @@ body {
   width: 1600px;
 }
 
+
 a {
   text-decoration: none;
 }
@@ -686,7 +687,7 @@ li {
 .top-vector {
   background: #F7F7F7;
   height: 777px;
-  position: relative;
+
 }
 
 .Layer42 {
@@ -699,14 +700,14 @@ li {
   width: 1141px;
   height: 601px;
   position: absolute;
-  top: 708px;
+  top: 930px;
   left: 230px;
   right: 229px;
   background: #FFFFFF;
   text-align: center;
   margin-bottom: 128px;
+  border: 1px solid #EAEAEA
 }
-
 
 .rectangle {
   width: 63px;
@@ -720,15 +721,143 @@ hr {
 }
 
 .add-product {
-  display: flex;
-  margin: 0px;
-}
-
-.add-box-product {
-  width: 271px;
-  height: 47px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .midl-cars-product {
   margin-bottom: 128px;
+  margin-top: 650px;
+
 }
+
+.middle-top-text {
+  width: 150px;
+  height: 17.14px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 64.54px;
+  color: #F16D7F;
+}
+
+.rectangle {
+  margin-top: 12.1px;
+}
+
+.middle-top-text2 {
+  width: 253px;
+  height: 22.19px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4D4D4D;
+  margin-top: 12.1px;
+}
+
+.middle-top-paragraph {
+  width: 555px;
+  height: 51.43px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #5E5E5E;
+  margin-top: 48.41px;
+}
+
+.price-page-product {
+  width: 56px;
+  height: 29.25px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #EF5B70;
+  margin-top: 32.27px;
+}
+
+.hr-page-product {
+  width: 641px;
+  border: 1px solid #EAEAEA;
+  margin-top: 65.04px;
+}
+
+.CHOOSE {
+  display: inline-flex;
+  margin-top: 65.05px;
+  border: none;
+}
+
+select {
+  border: none;
+}
+
+.select1 {
+  width: 109px;
+  height: 17.14px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  margin-right: 42px;
+}
+
+.select2 {
+  width: 90px;
+  height: 17.14px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  margin-right: 42px;
+}
+
+.select3 {
+  width: 71px;
+  height: 17.14px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+}
+
+.add-box-product {
+  margin-top: 48.91px;
+  border: 1px solid #FF6A6A;
+  width: 211px;
+  height: 48px;
+}
+
+.img-car-product {
+  margin-right: 23px;
+  margin-top: 14.62px;
+  margin-bottom: 8.57px;
+  margin-left: -35px;
+}
+
+.add-text-product {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F26376;
+}
+
+
+
+/* Catalog */ 

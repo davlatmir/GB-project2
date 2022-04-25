@@ -6,34 +6,71 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet">
   <title>Product</title>
 </head>
 
 <body>
-  <div class="header">
-    <ul class="menu-left">
-      <li class="group2">
-        <a href="index.html"><img src="images/Group2.svg" alt="Group2" /></a>
-      </li>
-      <li class="forma1">
-        <a href="#"><img src="images/Forma1.svg" alt="forma1" /></a>
-      </li>
-    </ul>
-    <ul class="menu-right">
-      <li class="forma2">
-        <a href="#"><img src="images/Forma2.svg" alt="forma2" /></a>
-      </li>
-      <li class="forma3">
-        <a href="#"><img src="images/Forma3.svg" alt="forma3" /></a>
-      </li>
-      <li class="forma4">
-        <a href="#"><img src="images/Forma4.svg" alt="forma4" /></a>
-      </li>
-      <li class="forma5">
-        <a href="#"><img src="images/5.svg" alt="forma5" /></a>
-      </li>
-    </ul>
-  </div>
+    <div class="header">
+      <ul class="menu-left">
+        <li class="group2">
+          <a class="img-group2" href="index.html"><img src="images/Group2.svg" alt="Group2" /></a>
+        </li>
+        <li class="forma1">
+          <a href="#"><img src="images/Forma1.svg" alt="forma1" /></a>
+        </li>
+      </ul>
+      <ul class="menu-right">
+        <li class="forma2">
+          <a href="#"><img src="images/Forma2.svg" alt="forma2" /></a>
+          <div class="mega-box">
+            <div class="menu-item man">
+              <h3 class="mega-heading">MENU</h3>
+              <h3 class="mega-cancel">X</h3>
+              <div class="bloc-menu">
+                <h3 class="heading-menu">MAN</h3>
+                <a class="menu-link" href="#">Accessories</a>
+                <a class="menu-link" href="#">Bags</a>
+                <a class="menu-link" href="#">Denim</a>
+                <a class="menu-link" href="#">T-Shirts</a>
+              </div>
+            </div>
+            <div class="menu-item woman">
+              <div class="bloc-menu">
+                <h3 class="heading-menu">WOMAN</h3>
+                <a class="menu-link" href="#">Accessories</a>
+                <a class="menu-link" href="#">Jackets & Coats</a>
+                <a class="menu-link" href="#">Polos</a>
+                <a class="menu-link" href="#">T-Shirts</a>
+                <a class="menu-link" href="#">Shirts</a>
+              </div>
+            </div>
+            <div class="menu-item kids">
+              <div class="bloc-menu">
+                <h3 class="heading-menu">KIDS</h3>
+                <a class="menu-link" href="#">Accessories</a>
+                <a class="menu-link" href="#">Jackets & Coats</a>
+                <a class="menu-link" href="#">Polos</a>
+                <a class="menu-link" href="#">T-Shirts</a>
+                <a class="menu-link" href="#">Shirts</a>
+                <a class="menu-link" href="#">Bags</a>
+              </div>
+            </div>
+        </li>
+        <li class="forma3">
+          <a href="#"><img src="images/Forma3.svg" alt="forma3" /></a>
+        </li>
+        <li class="forma4">
+          <a href="#"><img src="images/Forma4.svg" alt="forma4" /></a>
+        </li>
+        <li class="forma5">
+          <a href="#"><img src="images/5.svg" alt="forma5" /></a>
+        </li>
+
+      </ul>
+    </div>
   <div class="top_contact container">
     <div class="top-hidding-text">
       <p class="text_FASHION">NEW ARRIVALS </p>
@@ -41,7 +78,7 @@
     <div>
       <nav class="top-nav">
         <ul>
-          <li><a href="#">HOME /</a></li>
+          <li><a href="index.html">HOME /</a></li>
           <li><a href="#">MEN /</a></li>
           <li><a href="#"><span class="text_FASHION">NEW ARRIVALS</span></a></li>
         </ul>
@@ -51,50 +88,62 @@
   <div class="top-vector container">
     <div class="Layer42">
       <a href="#">
-        <img src="images/Layer42.svg" alt="">
+        <img src="images/Layer42.svg" alt="Layer42">
       </a>
     </div>
   </div>
   <div class="midl-vector">
     <div>
-      <p>WOMEN COLLECTION</p>
+      <p class="middle-top-text">WOMEN COLLECTION</p>
     </div>
     <div class="rectangle"></div>
     <div>
-      <p>MOSCHINO CHEAP AND CHIC</p>
+      <p class="middle-top-text2">MOSCHINO CHEAP AND CHIC</p>
     </div>
     <div>
-      <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate
+      <p class="middle-top-paragraph">Compellingly actualize fully researched processes before proactive outsourcing.
+        Progressively syndicate
         collaborative architectures before cutting-edge services. Completely visualize parallel core
         competencies rather than exceptional portals. </p>
     </div>
-    <div class="price">
+    <div class="price-page-product">
       $561
     </div>
-    <hr>
-
-    <div>
-      <details>
-        <summary>CHOOSE COLOR</summary>
-        Something small enough to escape casual notice.
-      </details>
-      <details>
-        <summary>CHOOSE COLOR</summary>
-        Something small enough to escape casual notice.
-      </details>
-      <details>
-        <summary>CHOOSE COLOR</summary>
-        Something small enough to escape casual notice.
-      </details>
+    <hr class="hr-page-product">
+    <div class="CHOOSE">
+      <div class="select1">
+        <select id="color">
+          <option disabled selected>CHOOSE COLOR</option>
+          <option>BLACK</option>
+          <option>WHITE</option>
+          <option>RED</option>
+        </select>
+      </div>
+      <div class="select2">
+        <select id="color">
+          <option disabled selected>CHOOSE SIZE</option>
+          <option>XL</option>
+          <option>M</option>
+          <option>S</option>
+        </select>
+      </div>
+      <div class="select3">
+        <select id="color">
+          <option disabled selected>QUANTITY</option>
+          <option>leather</option>
+          <option>synthetics</option>
+          <option>cotton</option>
+        </select>
+      </div>
     </div>
     <div class="add-box-product">
       <a class="add-product" href="#">
-        <img src="images/car-add-product.svg" alt="car">
+        <img class="img-car-product" src="images/car-add-product.svg" alt="car">
         <p class="add-text-product">Add to Car</p>
       </a>
     </div>
   </div>
-  <section class="midl-cars-product container">
+  <div class="midl-cars-product container">
     <div class="card4">
       <div class="item">
         <a href="item-link">
@@ -115,7 +164,7 @@
         </div>
       </div>
     </div>
-
+    
     <div class="card3">
       <div class="item">
         <a href="item-link">
@@ -157,8 +206,7 @@
         </div>
       </div>
     </div>
-  </section>
-
+  </div>
   <footer>
     <div class="footer2">
       <div class="footer2_card1">
