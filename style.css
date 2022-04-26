@@ -286,6 +286,30 @@ li {
   margin-left: 30px;
   margin-bottom: 48.45px;
 }
+.card7 {
+  width: 360px;
+  height: 581px;
+  background: #f8f8f8;
+  float: left;
+  margin-bottom: 48.45px;
+  margin-left: 230px;
+}
+.card8 {
+  width: 360px;
+  height: 581px;
+  background: #f8f8f8;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 48.45px;
+}
+.card9 {
+  width: 360px;
+  height: 581px;
+  background: #f8f8f8;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 48.45px;
+}
 
 .item-desc {
   font-family: "Lato";
@@ -523,6 +547,7 @@ li {
   left: -5px;
   position: absolute;
   display: none;
+  z-index: 9999;
 }
 
 .mega-heading {
@@ -860,4 +885,86 @@ select {
 
 
 
-/* Catalog */ 
+/* Catalog */
+
+
+.filter {
+  display: flex;
+  margin-top: 51px;
+  margin-bottom: 64px;
+}
+
+.filter-text {
+  display: flex;
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+margin-left: 246px;
+
+}
+
+.img-filter {
+  margin-left: 11px;
+}
+
+.CHOOSE-page-catalog {
+margin-top: 0px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #6F6E6E;
+margin-right: 620px ;
+}
+
+
+.select1-catalog {
+  width: 112px;
+  height: 17x;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #6F6E6E;
+  margin-right: 42px;
+}
+
+.select2-catalog {
+  width: 29px;
+  height: 17px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #6F6E6E;
+  margin-right: 42px;
+}
+
+
+.select3-catalog {
+  width: 39px;
+  height: 17px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #6F6E6E;
+}
+
+
+.section-caralog {
+  margin-bottom: 48.5px;
+}
+
+.switch {
+  width: 282.91px;
+  height: 43px;
+  border: 1px solid #EBEBEB;
+}
