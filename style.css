@@ -6,12 +6,15 @@
 body {
   font-family: "Lato";
   font-style: normal;
+  width: 1600px;
 }
 
 .container {
   width: 1600px;
   margin: 0 auto;
 }
+
+
 
 .header {
   display: flex;
@@ -286,6 +289,7 @@ li {
   margin-left: 30px;
   margin-bottom: 48.45px;
 }
+
 .card7 {
   width: 360px;
   height: 581px;
@@ -294,6 +298,7 @@ li {
   margin-bottom: 48.45px;
   margin-left: 230px;
 }
+
 .card8 {
   width: 360px;
   height: 581px;
@@ -302,6 +307,7 @@ li {
   margin-left: 30px;
   margin-bottom: 48.45px;
 }
+
 .card9 {
   width: 360px;
   height: 581px;
@@ -682,14 +688,13 @@ li {
   display: flex;
 }
 
-/*
+
 .item-flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: flow-root;
 }
 
-*/
+.catalog-cards {}
+
 
 /*   Product   */
 
@@ -897,12 +902,12 @@ select {
 .filter-text {
   display: flex;
   font-family: 'Lato';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-color: #000000;
-margin-left: 246px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-left: 246px;
 
 }
 
@@ -911,38 +916,38 @@ margin-left: 246px;
 }
 
 .CHOOSE-page-catalog {
-margin-top: 0px;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-color: #6F6E6E;
-margin-right: 620px ;
+  margin-top: 0px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  margin-right: 620px;
 }
 
 
 .select1-catalog {
   width: 112px;
   height: 17x;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-color: #6F6E6E;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
   margin-right: 42px;
 }
 
 .select2-catalog {
   width: 29px;
   height: 17px;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-color: #6F6E6E;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
   margin-right: 42px;
 }
 
@@ -950,12 +955,12 @@ color: #6F6E6E;
 .select3-catalog {
   width: 39px;
   height: 17px;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-color: #6F6E6E;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
 }
 
 
@@ -963,8 +968,42 @@ color: #6F6E6E;
   margin-bottom: 48.5px;
 }
 
-.switch {
+
+
+.paginator {
   width: 282.91px;
   height: 43px;
+  margin: 30px auto;
+  white-space: nowrap;
   border: 1px solid #EBEBEB;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.prev {
+  margin-left: 15.45px;
+
+}
+
+.next {
+  margin-left: 14.79px;
+  margin-right: 16px;
+}
+
+.current {
+  margin-left: 17.5px;
+}
+
+
+.paginator .prev {}
+
+.paginator .next {}
+
+.paginator .current {}
+
+
+.paginator a:hover {
+  color: red;
 }
