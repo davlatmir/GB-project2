@@ -142,6 +142,64 @@ body {
   display: block;
 }
 
+.top_contact {
+  margin-bottom: 64px;
+}
+
+form {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top-form {
+  margin-left: 230px;
+  margin-right: 230px;
+}
+
+.welcome {
+  float: left;
+}
+
+.paragraph-right {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.paragraph-text {
+  margin-left: 23.08px;
+  margin-bottom: 16px;
+}
+
+.text-Get-in {
+  margin-top: 22px;
+  margin-bottom: 21px;
+}
+
+.form-text-right {
+  margin-left: 128px;
+}
+
+.footer2-registration {
+  margin-top: 96px;
+}
+
+.label-text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+
 a {
   text-decoration: none;
 }
@@ -610,7 +668,6 @@ li {
   margin-top: 24px;
 }
 
-/*  menu   -------------*/
 .man {
   margin-bottom: 20px;
 }
