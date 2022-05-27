@@ -200,6 +200,205 @@ form {
   color: #222222;
 }
 
+.div-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cart1 {
+  width: 652px;
+  height: 306px;
+  -webkit-box-shadow: 20px 20px 24px 0px #e5e5e5;
+          box-shadow: 20px 20px 24px 0px #e5e5e5;
+  margin-bottom: 40px;
+  margin-left: 230px;
+}
+
+.cart-imgsvg {
+  float: left;
+}
+
+.cart-paragraph {
+  margin-left: 31px;
+  margin-top: 22px;
+  margin-right: 97px;
+  margin-bottom: 62px;
+  width: 262px;
+  height: 222px;
+  float: left;
+}
+
+.paragraph-text-mango {
+  width: 262px;
+  height: 58px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+  margin-bottom: 42px;
+}
+
+.paragraph-text-other {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+}
+
+.text-three-hundred {
+  color: #F06579;
+}
+
+.card-svg-imgclose {
+  position: relative;
+  top: -277px;
+  left: 616px;
+  border: none;
+  outline: none;
+}
+
+.div-shoping-CONTINUE {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-shoping {
+  width: 234px;
+  height: 49px;
+  margin-left: 230px;
+}
+
+.div-text-clear {
+  border: 1px solid #A4A4A4;
+  width: 234px;
+  height: 49px;
+}
+
+.cart-form-general {
+  margin-left: 128px;
+}
+
+.text-clear {
+  width: 156px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 16.5px 40.5px 15.5px 39px;
+}
+
+.text-CONTINUE {
+  width: 224px;
+  height: 49px;
+}
+
+.div-text-CONTINUE {
+  border: 1px solid #A4A4A4;
+  width: 234px;
+  height: 49px;
+  margin-left: -50px;
+}
+
+.text-CONTINUE {
+  width: 156px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 16px 39.5px 15.5px 38.5px;
+}
+
+.cart-form {
+  margin-bottom: 57px;
+}
+
+#name {
+  border: 1px solid #A4A4A4;
+  width: 100px;
+  height: 10px;
+  padding: 12.5px 277.35px 15.5px 16.73px;
+  margin-bottom: 21px;
+}
+
+#name-geta {
+  border: 1px solid #A4A4A4;
+  width: 101.41px;
+  height: 35px;
+  padding: 9.5px 13.69px 11.15px 14.7px;
+  margin-bottom: 21px;
+}
+
+.text-SHIPPING {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20.5px;
+  color: #222222;
+}
+
+.CHECKOUT {
+  background: #F5F3F3;
+  width: 360px;
+  height: 240px;
+}
+
+.sub {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  padding: 39px 34px 12px 218px;
+  color: #4A4A4A;
+}
+
+.grand-total {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 12px 37px 21px 153px;
+  color: #222222;
+}
+
+.price {
+  color: #F16D7F;
+}
+
+.cart-hr {
+  width: 275px;
+  height: 1px;
+  background: #E2E2E2;
+  margin: 21px 42px 17px 43px;
+}
+
+.buttom-CHECKOUT {
+  width: 273px;
+  height: 50px;
+  background: #F16D7F;
+  border: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin: 17px 43px 42px 44px;
+}
+
 a {
   text-decoration: none;
 }
