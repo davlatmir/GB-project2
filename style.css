@@ -15,11 +15,8 @@ body {
 }
 
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   background-image: url(images/Rectangle25.svg);
   height: 10px;
   background: #222222;
@@ -92,7 +89,7 @@ body {
 .mega-heading {
   margin-left: 34px;
   margin-top: 37px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -103,7 +100,7 @@ body {
 .menu-link {
   margin-top: 12px;
   display: block;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -115,7 +112,6 @@ body {
 .menu-link:hover {
   color: #f17c8c;
   padding-left: 5px;
-  -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
 
@@ -127,8 +123,7 @@ body {
   background-color: #e8e8e8;
   top: -8px;
   left: 15px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   border-left: 1px solid #e8e8e8;
   border-top: 1px solid #e8e8e8;
   position: absolute;
@@ -147,12 +142,8 @@ body {
 }
 
 form {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .top-form {
@@ -165,7 +156,7 @@ form {
 }
 
 .paragraph-right {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
@@ -191,26 +182,82 @@ form {
   margin-top: 96px;
 }
 
-.label-text {
-  font-family: 'Lato';
+#reg-name {
+  border: 1px solid #A4A4A4;
+  width: 358.99px;
+  height: 44px;
+}
+
+.reg-nama {
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
   color: #222222;
+  margin-bottom: 20.5px;
+}
+
+#reg-name {
+  width: 358px;
+  height: 44px;
+  border: 1px solid #A4A4A4;
+  margin-bottom: 20px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  padding-left: 13px;
+}
+
+.radio-label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 13px;
+  margin-bottom: 35px;
+  color: #000000;
+}
+
+.reg-text-please {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.reg-img-arrow {
+  margin-left: 20px;
+}
+
+.reg-btn {
+  border: none;
+  margin-top: 39px;
+  margin-bottom: 96px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  background: #F16D7F;
+  width: 167px;
+  height: 50px;
 }
 
 .div-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .cart1 {
   width: 652px;
   height: 306px;
-  -webkit-box-shadow: 20px 20px 24px 0px #e5e5e5;
-          box-shadow: 20px 20px 24px 0px #e5e5e5;
+  box-shadow: 20px 20px 24px 0px #e5e5e5;
   margin-bottom: 40px;
   margin-left: 230px;
 }
@@ -232,7 +279,7 @@ form {
 .paragraph-text-mango {
   width: 262px;
   height: 58px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -242,7 +289,7 @@ form {
 }
 
 .paragraph-text-other {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -263,8 +310,6 @@ form {
 }
 
 .div-shoping-CONTINUE {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -286,7 +331,7 @@ form {
 
 .text-clear {
   width: 156px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -309,7 +354,7 @@ form {
 
 .text-CONTINUE {
   width: 156px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -339,7 +384,7 @@ form {
 }
 
 .text-SHIPPING {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -355,7 +400,7 @@ form {
 }
 
 .sub {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
@@ -365,7 +410,7 @@ form {
 }
 
 .grand-total {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -390,7 +435,7 @@ form {
   height: 50px;
   background: #F16D7F;
   border: none;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -430,8 +475,6 @@ li {
 }
 
 .img_text {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
@@ -496,8 +539,6 @@ li {
   width: 1140px;
   height: 180px;
   margin-bottom: 96px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -745,8 +786,6 @@ li {
   background-image: url(images/Layer41.svg);
   width: 1600px;
   height: 448px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -808,12 +847,8 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   color: #222224;
   opacity: 0.67;
   border: none;
@@ -841,8 +876,6 @@ li {
 }
 
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-image: url(images/Rectangle25.svg);
   height: 79px;
@@ -880,7 +913,7 @@ li {
 }
 
 .heading-menu {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -904,32 +937,24 @@ li {
 }
 
 .item:hover {
-  -webkit-box-shadow: 0 5px 8px rgba(202, 14, 14, 0.16);
-          box-shadow: 0 5px 8px rgba(202, 14, 14, 0.16);
+  box-shadow: 0 5px 8px rgba(202, 14, 14, 0.16);
 }
 
 .item:hover .item-pic {
-  -webkit-filter: brightness(30%);
-          filter: brightness(30%);
+  filter: brightness(30%);
 }
 
 .add-box {
   display: none;
   position: absolute;
   top: 190px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 100%;
 }
 
 .add {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding: 8px;
   border: 1px solid white;
   text-decoration: none;
@@ -944,13 +969,10 @@ li {
 }
 
 .add:hover {
-  -webkit-box-shadow: 0 0 10px white;
-          box-shadow: 0 0 10px white;
+  box-shadow: 0 0 10px white;
 }
 
 .item:hover .add-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -962,12 +984,8 @@ li {
 .top_contact {
   height: 148px;
   background: #f8f3f4;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   justify-items: flex-end;
 }
 
@@ -985,12 +1003,8 @@ li {
 }
 
 .Layer42 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding-top: 11px;
 }
 
@@ -1019,12 +1033,8 @@ hr {
 }
 
 .add-product {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .midl-cars-product {
@@ -1035,7 +1045,7 @@ hr {
 .middle-top-text {
   width: 150px;
   height: 17.14px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -1051,7 +1061,7 @@ hr {
 .middle-top-text2 {
   width: 253px;
   height: 22.19px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -1063,7 +1073,7 @@ hr {
 .middle-top-paragraph {
   width: 555px;
   height: 51.43px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -1076,7 +1086,7 @@ hr {
 .price-page-product {
   width: 56px;
   height: 29.25px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
@@ -1092,8 +1102,6 @@ hr {
 }
 
 .CHOOSE {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   margin-top: 65.05px;
   border: none;
@@ -1106,7 +1114,7 @@ select {
 .select1 {
   width: 109px;
   height: 17.14px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1118,7 +1126,7 @@ select {
 .select2 {
   width: 90px;
   height: 17.14px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1130,7 +1138,7 @@ select {
 .select3 {
   width: 71px;
   height: 17.14px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1153,7 +1161,7 @@ select {
 }
 
 .add-text-product {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1163,18 +1171,14 @@ select {
 
 /* Catalog */
 .filter {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 51px;
   margin-bottom: 64px;
 }
 
 .filter-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -1189,7 +1193,7 @@ select {
 
 .CHOOSE-page-catalog {
   margin-top: 0px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1201,7 +1205,7 @@ select {
 .select1-catalog {
   width: 112px;
   height: 17x;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1213,7 +1217,7 @@ select {
 .select2-catalog {
   width: 29px;
   height: 17px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1225,7 +1229,7 @@ select {
 .select3-catalog {
   width: 39px;
   height: 17px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1392,7 +1396,6 @@ label, a {
 }
 
 #slides .image {
-  -webkit-transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
   transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
 }
 
@@ -1401,7 +1404,5 @@ label, a {
 }
 
 #controls label {
-  -webkit-transition: opacity 0.2s ease-out;
   transition: opacity 0.2s ease-out;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
