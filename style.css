@@ -248,6 +248,12 @@ form {
   background: #F16D7F;
   width: 167px;
   height: 50px;
+  border: 1px solid #F16D7F;
+}
+
+.reg-btn:hover {
+  background: #FFFFFF;
+  color: #F16D7F;
 }
 
 .div-header {
@@ -260,6 +266,11 @@ form {
   box-shadow: 20px 20px 24px 0px #e5e5e5;
   margin-bottom: 40px;
   margin-left: 230px;
+}
+
+.cart1:hover {
+  margin-left: 5px;
+  transition: 3s all;
 }
 
 .cart-imgsvg {
@@ -442,6 +453,11 @@ form {
   line-height: 19px;
   color: #FFFFFF;
   margin: 17px 43px 42px 44px;
+}
+
+.buttom-CHECKOUT:hover {
+  background: white;
+  color: #000000;
 }
 
 a {
@@ -711,23 +727,22 @@ li {
   margin-left: 18.46px;
 }
 
-.border_browse {
-  border: 1px solid #ff6a6a;
-  clear: both;
-  width: 211px;
-  height: 47px;
-  margin-bottom: 109px;
-}
-
 .text_border_browse {
+  width: 138px;
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #f26376;
-  margin-top: 14.5px;
-  margin-left: 38.5px;
+  border: 1px solid #ff6a6a;
+  padding: 14.5px 38.5px 13.5px 38.5px;
+  margin: 48.5px 693.5px 95.5px 695.5px;
+}
+
+.text_border_browse:hover {
+  background: #f26376;
+  color: white;
 }
 
 .footer1 {
@@ -873,6 +888,11 @@ li {
   line-height: 17px;
   text-align: center;
   color: #ffffff;
+}
+
+.btn-sub:hover {
+  background: white;
+  color: #f16d7f;
 }
 
 .footer {
