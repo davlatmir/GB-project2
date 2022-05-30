@@ -475,6 +475,7 @@ li {
   height: 79px;
   background: #222222;
   width: 1600px;
+
 }
 
 .Reserved {
@@ -484,14 +485,17 @@ li {
   font-size: 16px;
   line-height: 19px;
   color: #fbfbfb;
-  margin-top: 30px;
-  margin-left: 230px;
+  margin: 30px 0px 30px 235px;
 }
 
 .icons {
-  margin-left: 655px;
-  margin-right: 230px;
-  margin-top: 24px;
+  margin: 24px 230px 23px 655px;
+  width: 158px;
+}
+
+.fa-brands:hover {
+  background: #f16d7f;
+  color: white;
 }
 
 
@@ -1037,4 +1041,12 @@ label, a{
 
 #controls label {
   transition: opacity 0.2s ease-out;
+}
+
+
+
+.fa-brands {
+  padding: 8px 11.83px 9.28px 11.55px;
+  background: white;
+  color: #000;
 }
