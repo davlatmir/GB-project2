@@ -7,7 +7,7 @@
 body {
   font-family: "Lato";
   font-style: normal;
-  width: 1600px;
+ 
 }
 
 .container {
@@ -319,7 +319,6 @@ li {
 
 .footer1 {
   background: #222224;
-  width: 1600px;
   height: 341px;
 }
 
@@ -371,9 +370,11 @@ li {
 
 .footer2 {
   background-image: url(images/Layer41.svg);
-  width: 1600px;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 448px;
   display: flex;
+  
 }
 
 .footer2_card1 {
@@ -474,8 +475,17 @@ li {
   background-image: url(images/Rectangle25.svg);
   height: 79px;
   background: #222222;
-  width: 1600px;
+  
 
+}
+
+.top-product {
+  margin: 0;
+}
+
+.footer-product{ 
+  float: left;
+  width: 100%;
 }
 
 .Reserved {
@@ -944,7 +954,7 @@ article img{
 #switch5:checked ~ #controls label:nth-child(4){
   background: url('images/prev.png') no-repeat;
   float: left;
-  margin: -170px 0 0 -320px; 
+  margin: -170px 0 0 -470px; 
   display: block;
   height: 68px;
   width: 68px;
@@ -963,7 +973,7 @@ article img{
 #switch5:checked ~ #controls label:nth-child(1){
   background: url('images/next.png') no-repeat; 
   float: right;
-  margin: -170px -340px 0 0; 
+  margin: -170px -480px 0 0; 
   display: block;
   height: 68px;
   width: 68px;
