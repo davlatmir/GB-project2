@@ -1,1 +1,213 @@
-/*# sourceMappingURL=@media.css.map */
+@media (max-width: 768px) {
+  body {
+    margin: 0 auto;
+    padding: 0;
+    width: 768px;
+  }
+
+  .header {
+    display: flex;
+    width: 768px;
+    background-image: url(images/Rectangle25.svg);
+    height: 10px;
+    background: #222222;
+    height: 75px;
+  }
+
+  .menu-left {
+    margin-left: 32px;
+    margin-top: 18px;
+  }
+
+  .menu-right {
+    margin-right: 41.04px;
+    margin-top: 18px;
+  }
+
+  .group2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .forma1 {
+    margin-left: 41px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .forma2 {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    padding-bottom: 0px;
+  }
+
+  .forma3 {
+    margin-left: 25px;
+    margin-top: 0px;
+    margin-right: 42px;
+  }
+
+  .forma4 {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .forma5 {
+    background: #f16d7f;
+    width: 19px;
+    height: 19px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: -20px;
+    right: 20px;
+  }
+
+  .img_top {
+    width: 386px;
+    height: 368px;
+    margin-top: 0;
+  }
+
+  .top {
+    width: 769.57px;
+    height: 367.57px;
+  }
+
+  .img_top2 {
+    margin: 138px 16px 137.57px 39px;
+    width: 12px;
+    height: 92px;
+  }
+
+  .paragrah_top {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 28px;
+    color: #222222;
+    margin: 148px 33.57px 151.47px 0px;
+  }
+
+  .midl_cards {
+    width: 769.36px;
+    height: 303.04px;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .FOR_WOMEN {
+    width: 232.09px;
+    height: 167.62px;
+    background-repeat: round;
+    margin: 0px 0px 0px 16px;
+  }
+
+  .text_paragrash_block {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 154px;
+    height: 50px;
+    color: #ffffff;
+    margin: 59px 39.09px 58.62px 39px;
+  }
+
+  .FOR_MEN {
+    width: 232.09px;
+    height: 167.62px;
+    background-repeat: round;
+    margin: 0px 0px 19.38px 19.91px;
+  }
+
+  .FOR_KIDS {
+    width: 232.09px;
+    height: 167.62px;
+    background-repeat: round;
+    margin: 0px 0px 0px 19.91px;
+  }
+
+  .LUXIROUS {
+    width: 734px;
+    height: 116px;
+    background-repeat: round;
+    margin: 0px 17.06px 154.92px 16px;
+  }
+
+  .fourth_top_paragraph {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .Fetured {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 36px;
+    color: #222222;
+    width: 182px;
+    height: 36px;
+    margin: 154px 296.07px 3.3px 289.93px;
+  }
+
+  .Shop {
+    text-align: start;
+    margin: 0px 216.34px 72.74px 215.66px;
+  }
+
+  .midl_cars {
+    margin: 0;
+  }
+
+  .item-flex {
+    margin: 0px 16px 16px 32.98px;
+    width: 768px;
+  }
+
+  .card1 {
+    margin: 0px 0px 17px 16px;
+  }
+
+  .card2 {
+    margin: 0px 16px 18px 16px;
+  }
+
+  .card3 {
+    margin: 0px 0px 17px 16px;
+  }
+
+  .card4 {
+    margin: 0px 16px 18px 16px;
+  }
+
+  .card5 {
+    margin: 0px 0px 17px 16px;
+  }
+
+  .card6 {
+    margin: 0px 16px 18px 16px;
+  }
+
+  .text_border_browse {
+    margin: 32px 278.5px 65.02px 311.5px;
+  }
+
+  .footer1 {
+    width: 768px;
+    height: 610px;
+    margin: 0px;
+  }
+}/*# sourceMappingURL=@media.css.map */

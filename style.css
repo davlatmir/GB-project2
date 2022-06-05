@@ -747,6 +747,7 @@ li {
 .footer1 {
   background: #222224;
   height: 341px;
+  display: flex;
 }
 
 .footer1_card1 {
@@ -754,7 +755,6 @@ li {
   height: 134px;
   margin-left: 230px;
   margin-top: 103px;
-  float: left;
 }
 
 .footer1_card2 {
@@ -762,14 +762,12 @@ li {
   height: 134px;
   margin-top: 103px;
   margin-left: 30px;
-  float: left;
 }
 
 .footer1_card3 {
   width: 360px;
   height: 134px;
   margin-top: 103px;
-  float: left;
   margin-left: 30px;
 }
 
