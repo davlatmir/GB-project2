@@ -4,8 +4,9 @@
     padding: 0;
     width: 768px;
   }
-
   .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 768px;
     background-image: url(images/Rectangle25.svg);
@@ -13,28 +14,23 @@
     background: #222222;
     height: 75px;
   }
-
   .menu-left {
     margin-left: 32px;
     margin-top: 18px;
   }
-
   .menu-right {
     margin-right: 41.04px;
     margin-top: 18px;
   }
-
   .group2 {
     margin-top: 0px;
     margin-bottom: 0px;
   }
-
   .forma1 {
     margin-left: 41px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
-
   .forma2 {
     margin-left: 0px;
     margin-top: 0px;
@@ -42,19 +38,16 @@
     position: relative;
     padding-bottom: 0px;
   }
-
   .forma3 {
     margin-left: 25px;
     margin-top: 0px;
     margin-right: 42px;
   }
-
   .forma4 {
     margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
-
   .forma5 {
     background: #f16d7f;
     width: 19px;
@@ -65,24 +58,20 @@
     top: -20px;
     right: 20px;
   }
-
   .img_top {
     width: 386px;
     height: 368px;
     margin-top: 0;
   }
-
   .top {
     width: 769.57px;
     height: 367.57px;
   }
-
   .img_top2 {
     margin: 138px 16px 137.57px 39px;
     width: 12px;
     height: 92px;
   }
-
   .paragrah_top {
     font-family: "Lato";
     font-style: normal;
@@ -92,20 +81,17 @@
     color: #222222;
     margin: 148px 33.57px 151.47px 0px;
   }
-
   .midl_cards {
     width: 769.36px;
     height: 303.04px;
     margin: 20px 0px 0px 0px;
   }
-
   .FOR_WOMEN {
     width: 232.09px;
     height: 167.62px;
     background-repeat: round;
     margin: 0px 0px 0px 16px;
   }
-
   .text_paragrash_block {
     font-family: "Lato";
     font-style: normal;
@@ -118,28 +104,24 @@
     color: #ffffff;
     margin: 59px 39.09px 58.62px 39px;
   }
-
   .FOR_MEN {
     width: 232.09px;
     height: 167.62px;
     background-repeat: round;
     margin: 0px 0px 19.38px 19.91px;
   }
-
   .FOR_KIDS {
     width: 232.09px;
     height: 167.62px;
     background-repeat: round;
     margin: 0px 0px 0px 19.91px;
   }
-
   .LUXIROUS {
     width: 734px;
     height: 116px;
     background-repeat: round;
     margin: 0px 17.06px 154.92px 16px;
   }
-
   .fourth_top_paragraph {
     font-family: "Lato";
     font-style: normal;
@@ -150,7 +132,6 @@
     color: #ffffff;
     text-align: center;
   }
-
   .Fetured {
     font-family: "Lato";
     font-style: normal;
@@ -162,60 +143,151 @@
     height: 36px;
     margin: 154px 296.07px 3.3px 289.93px;
   }
-
   .Shop {
     text-align: start;
     margin: 0px 216.34px 72.74px 215.66px;
   }
-
   .Fetured_text {
     width: 768px;
   }
-
   .border_browse {
     width: 768px;
   }
-
   .midl_cars {
     margin: 0;
     width: 768px;
   }
-
   .item-flex {
     width: 768px;
   }
-
   .card1 {
     margin: 0px 0px 17px 16px;
   }
-
   .card2 {
     margin: 0px 16px 18px 16px;
   }
-
   .card3 {
     margin: 0px 0px 17px 16px;
   }
-
   .card4 {
     margin: 0px 16px 18px 16px;
   }
-
   .card5 {
     margin: 0px 0px 17px 16px;
   }
-
   .card6 {
     margin: 0px 16px 18px 16px;
   }
-
   .text_border_browse {
     margin: 32px 278.5px 65.02px 311.5px;
   }
-
   .footer1 {
     width: 768px;
-    height: 610px;
+    height: 625px;
     margin: 0px;
+    display: block;
   }
-}/*# sourceMappingURL=@media.css.map */
+  .footer1_card1 {
+    margin: 0 auto;
+    padding: 48.16px 204px 48.37px 204px;
+  }
+  .footer1_card2 {
+    margin: 0 auto;
+    padding: 0px 204px 48.37px 204px;
+  }
+  .footer1_card3 {
+    margin: 0px 204px 40px 204px;
+  }
+  .footer2 {
+    display: block;
+    height: 693px;
+    margin: 0px;
+    background-image: url(images/photo-subscribe768.svg);
+  }
+  .footer2_card1 {
+    width: 359px;
+    height: 225px;
+  }
+  .footer2_card1_text {
+    margin: -24px 0px 48px 0px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+  }
+  .Intersect {
+    margin-top: -70px;
+  }
+  .SUBSCRIBE {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 135%;
+    text-align: center;
+    color: #222224;
+    width: 557px;
+    height: 137px;
+    margin: 0;
+    display: block;
+    margin: -30px 106px 140px 105px;
+  }
+  .your_email .btn-sub {
+    margin-top: 24px;
+  }
+  .footer {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .Reserved {
+    margin: 30px 305px 30px 32px;
+  }
+  .icons {
+    width: 211px;
+    display: block;
+    margin: 24px 32.34px 23px 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    width: 375px;
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .mega-box {
+    margin-right: 10px;
+  }
+  .menu-left {
+    margin: 0;
+  }
+  .menu-right {
+    margin: 0;
+    padding: 0;
+  }
+  .group2 {
+    margin: 18px 41px 18px 16px;
+  }
+  .forma4 {
+    visibility: hidden;
+  }
+  .forma3 {
+    visibility: hidden;
+  }
+  .forma5 {
+    visibility: hidden;
+  }
+  .forma2 {
+    margin: 25px -90px 26px 0;
+  }
+}
+/*# sourceMappingURL=@media.css.map */
