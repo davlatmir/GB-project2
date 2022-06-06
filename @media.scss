@@ -276,6 +276,7 @@
     display: block;
     margin: -30px 106px 140px 105px;
   }
+
   .your_email .btn-sub {
     margin-top: 24px;
   }
@@ -299,48 +300,64 @@
 @media (max-width: 375px) {
 
   body {
+    margin: 0 auto;
+    padding: 0;
     width: 375px;
   }
 
-    .header {
-   display: flex;
+  .header {
+   width: 375px;
+    display: flex;
     justify-content: space-between;
-    }
+  }
 
-    .mega-box {
-      margin-right: 10px;
-    }
+  .mega-box {
+    margin-right: 10px;
+  }
 
-    .menu-left {
-        margin: 0;
-    }
-    .menu-right {
-                margin: 0;
-        padding: 0;
-    }
+  .menu-left {
+    margin: 0px 0px 0px 0px;
+  }
 
+  .menu-right {
+    margin: 0px 0px 0px 0px;
 
-    .group2 {
-        margin: 18px 41px 18px 16px;
-    }
-
-    .forma4 {
-        visibility: hidden;
-    }
-
-    .forma3 {
-        visibility: hidden;
-    }
-
-    .forma5 {
-        visibility: hidden;
-    }
-
-    .forma2 {
-      margin: 25px -90px 26px 0;
-      
-    }
+  }
 
 
+  .group2 {
+    margin: 18px 40px 18px 16px;
+  }
+  .forma1 {
+    margin: 28.21px 0px 19px 0px;
+  }
 
+  .forma4 {
+    visibility: hidden;
+  }
+
+  .forma3 {
+    visibility: hidden;
+  }
+
+  .forma5 {
+    visibility: hidden;
+  }
+
+  .forma2 {
+    margin: 25px -142px 26px 0px;
+  }
+
+
+  .top {
+    width: 375px;
+  }
+
+  .img_text{
+    margin: 0px 0px 0px 0px;
+  }
+
+  .img_top {
+    display: none;
+  }
 }
