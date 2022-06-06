@@ -235,6 +235,7 @@
   }
 
   .footer2 {
+    width: 375px;
     display: block;
     height: 693px;
     margin: 0px;
@@ -489,10 +490,12 @@ margin: 0px 0px 0px -313px;
   }
 
   .footer {
+    width: 375px;
 height: 143px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
+    margin: 0px 0px 0px 0px;
   }
 
   .Reserved {
